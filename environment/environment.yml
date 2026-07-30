@@ -1,0 +1,10 @@
+name: hgsoc-hlaii
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - r-base=4.4
+  - pip
+  - pip:
+      - -r environment/requirements.txt

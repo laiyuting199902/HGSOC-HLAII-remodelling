@@ -1,0 +1,31 @@
+order	stage	script	main_output
+01	Input audit	34_gse266577_manifest_and_overlap_audit.R	GSE266577 sample manifest and GSE165897 overlap map
+02	Primary paired analysis	35_gse266577_pseudobulk_hlaii_analysis.R	Patient-paired pseudobulk differential expression and pathway enrichment
+03	State decomposition	36_gse266577_state_composition_decomposition.R	Unified EOC states and patient-level decomposition
+04	Identity audit	37_hgsoc_malignant_identity_and_ambient_audit.R	Doublet, lineage-marker and CNV-proxy sensitivity analyses
+05	Formal CNV sensitivity	79_gse266577_formal_cnv_validation.R	inferCNV/CopyKAT concordance and restricted epithelial estimates
+06	Program atlas	67_hgsoc_program_decomposition_atlas.R	Fourteen-program decomposition comparison
+07	Robustness analysis	86_hgsoc_robustness_sensitivity_analysis.R	Sampling-site, leave-one-gene-out and immune-endpoint sensitivity analyses
+08	Independent single-cell analysis	44_gse201047_external_longitudinal_validation.py	GSE201047 patient-level deltas and bootstrap interval
+09	External cohort mapping	57_neopembrov_sample_mapping.py	NeoPembrOV anonymized-sample mapping audit
+10	External paired cohorts	56_hgsoc_external_cohort_rescue.R	Paired tissue cohort estimates
+11	NeoPembrOV analysis	58_neopembrov_longitudinal_validation.R	Treatment-arm and immune-endpoint analyses
+12	Additional single-cell audit	60_hgsoc_additional_scrna_longitudinal_audit.py	Additional longitudinal single-cell sensitivity analyses
+13	GSE319500 analysis	61_gse319500_unified_longitudinal_validation.R	Deduplicated patient-paired estimates
+14	GSE143897 analysis	68_gse143897_longitudinal_validation.R	Patient-paired tissue estimates
+15	Evidence synthesis	62_hgsoc_external_evidence_synthesis.R	Cross-cohort random-effects synthesis
+16	Cross-sectional boundary audit	59_hgsoc_crosssectional_external_audit.R	GSE181597 and GSE71340 boundary analyses
+17	Spatial RNA analysis	63_hgsoc_public_spatial_rescue.py	GeoMx and Visium localization analyses
+18	Protein-layer baseline	19_scprotrans_hgsoc_independent_analysis.py	RNA-derived protein-panel baseline and dependency audit
+19	Disease-context analysis	20_scprotrans_hgsoc_gse184880_validation.py	Normal-versus-HGSOC single-cell context
+20	TCGA context analysis	21_scprotrans_hgsoc_tcga_validation.R	TCGA-OV RNA and clinical context
+21	HPA context analysis	22_scprotrans_hgsoc_hpa_validation.py	Human Protein Atlas evidence audit
+22	CPTAC context analysis	23_scprotrans_hgsoc_cptac_protein_validation.R	CPTAC measured-protein context
+23	Public proteomics audit	88_hgsoc_public_proteomics_hlaii_audit.R	Longitudinal public-proteomics coverage audit
+24	Measured protein analysis	65_hgsoc_cycif_hlaii_rescue.R	Paired t-CyCIF protein and nearest-neighbour statistics
+25	Regulatory analysis	41_hgsoc_ifng_ciita_regulatory_analysis.R	IFN-gamma/CIITA and ligand-receptor boundary analyses
+26	Upstream coupling	87_hgsoc_upstream_coupling_rescue.R	Cross-cohort patient-level coupling meta-analysis
+27	scProTrans reference audit	38_scprotrans_reference_panel_audit.py	Reference-panel and target-protein feasibility
+28	scProTrans transfer audit	39_scprotrans_crossdomain_training.py	Donor holdout, baselines and target-domain coverage
+29	scProTrans bridge audit	50_gse253719_scprotrans_bridge_evaluation.py	Independent epithelial bridge evaluation
+30	scProTrans bridge refinement	51_scprotrans_epithelial_bridge_finetuning.py	Exploratory bridge fine-tuning and transfer decision

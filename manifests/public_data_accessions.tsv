@@ -1,0 +1,32 @@
+accession	repository	url	role	access	raw_data_in_repository
+GSE266577	NCBI GEO	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE266577	Primary longitudinal single-cell cohort	Public	No
+GSE165897	NCBI GEO	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE165897	Overlap audit only	Public	No
+GSE201047	NCBI GEO	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE201047	Independent same-site single-cell directional support	Public	No
+GSE318490	NCBI GEO	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE318490	Independent single-cell boundary case	Public	No
+GSE191301	NCBI GEO	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE191301	Supporting or boundary analysis	Public	No
+GSE201600	NCBI GEO	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE201600	External paired-tissue cohort	Public	No
+GSE227666	NCBI GEO	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE227666	NeoPembrOV paired-tissue and immune endpoint cohort	Public	No
+GSE319500	NCBI GEO	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE319500	External paired-tissue cohort	Public	No
+GSE181597	NCBI GEO	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE181597	External paired-tissue cohort mapped through GSE319500	Public	No
+GSE227100	NCBI GEO	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE227100	External paired-tissue cohort	Public	No
+GSE146963	NCBI GEO	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE146963	External paired-tissue cohort	Public	No
+GSE143897	NCBI GEO	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE143897	External paired-tissue cohort	Public	No
+GSE71340	NCBI GEO	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE71340	Supporting or boundary analysis	Public	No
+GSE300897	NCBI GEO	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE300897	Supporting or boundary analysis	Public	No
+GSE241908	NCBI GEO	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE241908	Supporting or boundary analysis	Public	No
+GSE109934	NCBI GEO	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE109934	Supporting or boundary analysis	Public	No
+GSE217179	NCBI GEO	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE217179	Supporting or boundary analysis	Public	No
+GSE184880	NCBI GEO	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE184880	Normal-versus-HGSOC single-cell disease context	Public	No
+GSE276935	NCBI GEO	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE276935	GeoMx PanCK tumour-segment localization	Public	No
+GSE189843	NCBI GEO	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE189843	Pre-NACT Visium response-stratified context	Public	No
+GSE211956	NCBI GEO	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE211956	Post-NACT Visium response-stratified context	Public	No
+GSE164378	NCBI GEO	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE164378	Supporting or boundary analysis	Public	No
+GSE128639	NCBI GEO	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE128639	Supporting or boundary analysis	Public	No
+GSE194122	NCBI GEO	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE194122	Supporting or boundary analysis	Public	No
+GSE200417	NCBI GEO	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE200417	Supporting or boundary analysis	Public	No
+GSE253719	NCBI GEO	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE253719	Exploratory epithelial scProTrans bridge audit	Public	No
+GSE254985	NCBI GEO	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE254985	Independent epithelial transfer unit	Public	No
+syn53283672 / syn66694443	Synapse	https://www.synapse.org/Synapse:syn53283672	Paired t-CyCIF MHC-II protein and spatial analysis	Free Synapse login required	No
+TCGA-OV	NCI Genomic Data Commons	https://portal.gdc.cancer.gov/projects/TCGA-OV	Matched RNA context and clinical analyses	Public data products; follow GDC access rules	No
+CPTAC ovarian cancer	NCI Proteomic Data Commons / cBioPortal	https://www.cbioportal.org/	Measured protein context	Public data products	No
+Human Protein Atlas	Human Protein Atlas	https://www.proteinatlas.org/	Protein availability and immunohistochemistry context	Public	No

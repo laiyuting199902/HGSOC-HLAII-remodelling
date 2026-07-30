@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd "$(dirname "$0")/.."
+
+python3 scripts/44_gse201047_external_longitudinal_validation.py
+python3 scripts/57_neopembrov_sample_mapping.py
+Rscript scripts/56_hgsoc_external_cohort_rescue.R
+Rscript scripts/58_neopembrov_longitudinal_validation.R
+python3 scripts/60_hgsoc_additional_scrna_longitudinal_audit.py
+Rscript scripts/61_gse319500_unified_longitudinal_validation.R
+Rscript scripts/68_gse143897_longitudinal_validation.R
+Rscript scripts/62_hgsoc_external_evidence_synthesis.R
+Rscript scripts/59_hgsoc_crosssectional_external_audit.R
+python3 scripts/63_hgsoc_public_spatial_rescue.py
+python3 scripts/19_scprotrans_hgsoc_independent_analysis.py
+python3 scripts/20_scprotrans_hgsoc_gse184880_validation.py
+Rscript scripts/21_scprotrans_hgsoc_tcga_validation.R
+python3 scripts/22_scprotrans_hgsoc_hpa_validation.py
+Rscript scripts/23_scprotrans_hgsoc_cptac_protein_validation.R
+Rscript scripts/88_hgsoc_public_proteomics_hlaii_audit.R
+Rscript scripts/65_hgsoc_cycif_hlaii_rescue.R
+Rscript scripts/87_hgsoc_upstream_coupling_rescue.R
